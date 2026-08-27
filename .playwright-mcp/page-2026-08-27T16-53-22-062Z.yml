@@ -1,0 +1,71 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Vector" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e17]:
+        - link "RDY Ready Room" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e19]: RDY
+          - generic [ref=e20]: Ready Room
+        - link "PLN Plan" [ref=e22] [cursor=pointer]:
+          - /url: /plan
+          - generic [ref=e23]: PLN
+          - generic [ref=e24]: Plan
+        - link "LOG Logbook" [ref=e26] [cursor=pointer]:
+          - /url: /logbook
+          - generic [ref=e27]: LOG
+          - generic [ref=e28]: Logbook
+        - link "FLT Fleet" [ref=e30] [cursor=pointer]:
+          - /url: /fleet
+          - generic [ref=e31]: FLT
+          - generic [ref=e32]: Fleet
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]: 16:53
+          - generic [ref=e37]: :22
+          - generic [ref=e38]: Z
+        - generic [ref=e40]: AR
+  - main [ref=e41]:
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]: FLIGHT BRIEFING
+        - heading [level=1] [ref=e45]:
+          - text: Where are you
+          - emphasis [ref=e46]: headed
+          - text: "?"
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: Departure
+            - combobox "Departure" [ref=e51]:
+              - option "— select —" [selected]
+              - option "KPAO · Palo Alto, CA"
+              - option "KHAF · Half Moon Bay, CA"
+              - option "KWVI · Watsonville, CA"
+              - option "KTRK · Truckee, CA"
+              - option "KSNS · Salinas, CA"
+              - option "KMRY · Monterey, CA"
+              - option "KLVK · Livermore, CA"
+              - option "KAPC · Napa, CA"
+          - generic [ref=e52]:
+            - generic [ref=e53]: Destination
+            - combobox "Destination" [ref=e54]:
+              - option "— select —" [selected]
+              - option "KPAO · Palo Alto, CA"
+              - option "KHAF · Half Moon Bay, CA"
+              - option "KWVI · Watsonville, CA"
+              - option "KTRK · Truckee, CA"
+              - option "KSNS · Salinas, CA"
+              - option "KMRY · Monterey, CA"
+              - option "KLVK · Livermore, CA"
+              - option "KAPC · Napa, CA"
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - generic [ref=e57]: Cruise (kt)
+              - spinbutton "Cruise (kt)" [ref=e58]: "115"
+            - generic [ref=e59]:
+              - generic [ref=e60]: Burn (gph)
+              - spinbutton "Burn (gph)" [ref=e61]: "9.5"
+          - button "Compute briefing" [disabled] [ref=e62]
+        - paragraph [ref=e68]: Select a departure and destination to stage a route.

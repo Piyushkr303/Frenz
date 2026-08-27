@@ -1,0 +1,347 @@
+- generic [ref=e3]:
+  - banner:
+    - generic [ref=e4]:
+      - button "Vector" [ref=e5]
+      - generic [ref=e15]:
+        - generic [ref=e16]: RDY
+        - generic [ref=e17]: Ready Room
+        - generic [ref=e19]: 6,500 FT
+        - generic [ref=e20]: CRUISE
+      - generic [ref=e21]:
+        - generic "Agent activity" [ref=e22]
+        - generic [ref=e29]:
+          - generic [ref=e30]: 17:09
+          - generic [ref=e31]: :23
+          - generic [ref=e32]: Z
+        - generic [ref=e34]: AR
+  - navigation:
+    - button "Go to Plan" [ref=e35]:
+      - generic [ref=e37]: PLN
+    - button "Go to Ready Room" [ref=e38]:
+      - generic [ref=e40]: RDY
+      - generic [ref=e41]: 6,500 FT
+    - button "Go to Logbook" [ref=e42]:
+      - generic [ref=e44]: LOG
+    - button "Go to Fleet" [ref=e45]:
+      - generic [ref=e47]: FLT
+  - generic [ref=e48]:
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]: FLIGHT BRIEFING
+        - generic [ref=e52]:
+          - generic [ref=e53]: Departure
+          - combobox "Departure" [ref=e54]:
+            - option "— select —" [selected]
+            - option "KPAO · Palo Alto, CA"
+            - option "KHAF · Half Moon Bay, CA"
+            - option "KWVI · Watsonville, CA"
+            - option "KTRK · Truckee, CA"
+            - option "KSNS · Salinas, CA"
+            - option "KMRY · Monterey, CA"
+            - option "KLVK · Livermore, CA"
+            - option "KAPC · Napa, CA"
+        - generic [ref=e55]:
+          - generic [ref=e56]: Destination
+          - combobox "Destination" [ref=e57]:
+            - option "— select —" [selected]
+            - option "KPAO · Palo Alto, CA"
+            - option "KHAF · Half Moon Bay, CA"
+            - option "KWVI · Watsonville, CA"
+            - option "KTRK · Truckee, CA"
+            - option "KSNS · Salinas, CA"
+            - option "KMRY · Monterey, CA"
+            - option "KLVK · Livermore, CA"
+            - option "KAPC · Napa, CA"
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - generic [ref=e60]: Cruise (kt)
+            - spinbutton "Cruise (kt)" [ref=e61]: "115"
+          - generic [ref=e62]:
+            - generic [ref=e63]: Burn (gph)
+            - spinbutton "Burn (gph)" [ref=e64]: "9.5"
+        - button "Compute briefing" [disabled] [ref=e65]
+      - generic [ref=e66]:
+        - heading [level=1] [ref=e67]:
+          - text: Where are you
+          - emphasis [ref=e68]: headed
+          - text: "?"
+        - paragraph [ref=e74]: Select a departure and destination to stage a route.
+    - generic [ref=e76]:
+      - generic [ref=e77]: THURSDAY, AUGUST 27, 2026
+      - heading [level=1] [ref=e78]:
+        - text: Good afternoon,
+        - emphasis [ref=e79]: Alex
+        - text: . Five agents are on watch.
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - generic [ref=e93]:
+            - generic [ref=e94]: OBJECTIVE
+            - generic [ref=e95]: Maintain currency & fleet readiness
+          - button "· NAVIGATOR Idle" [ref=e97]:
+            - generic [ref=e98]: ·
+            - generic [ref=e104]:
+              - generic [ref=e105]: NAVIGATOR
+              - generic [ref=e106]: Idle
+          - button "· WX WATCH Idle" [ref=e108]:
+            - generic [ref=e109]: ·
+            - generic [ref=e114]:
+              - generic [ref=e115]: WX WATCH
+              - generic [ref=e116]: Idle
+          - button "· CURRENCY Idle" [ref=e118]:
+            - generic [ref=e119]: ·
+            - generic [ref=e124]:
+              - generic [ref=e125]: CURRENCY
+              - generic [ref=e126]: Idle
+          - button "· LOGKEEPER Idle" [ref=e128]:
+            - generic [ref=e129]: ·
+            - generic [ref=e134]:
+              - generic [ref=e135]: LOGKEEPER
+              - generic [ref=e136]: Idle
+          - button "· CREW CHIEF Idle" [ref=e138]:
+            - generic [ref=e139]: ·
+            - generic [ref=e144]:
+              - generic [ref=e145]: CREW CHIEF
+              - generic [ref=e146]: Idle
+        - generic [ref=e147]:
+          - generic [ref=e148]: NAVIGATOR
+          - paragraph [ref=e149]: Standing by for a destination.
+          - generic [ref=e150]: Route & briefing
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - heading "Activity" [level=2] [ref=e153]
+          - list [ref=e154]:
+            - listitem [ref=e155]:
+              - generic [ref=e156]: 08:41Z
+              - generic [ref=e157]: "[CRW]"
+              - generic [ref=e158]: Morning sweep complete — 3 of 3 aircraft airworthy.
+            - listitem [ref=e159]:
+              - generic [ref=e160]: 08:52Z
+              - generic [ref=e161]: "[WX]"
+              - generic [ref=e162]: KPAO holding VFR, wind 280 at 8.
+            - listitem [ref=e163]:
+              - generic [ref=e164]: 09:10Z
+              - generic [ref=e165]: "[CUR]"
+              - generic [ref=e166]: Night landings at 3 of 3 required in 90 days — right at minimums.
+        - generic [ref=e167]:
+          - generic [ref=e168]:
+            - generic [ref=e169]: VFR
+            - generic [ref=e170]: 22°/13° · 280°@8kt
+          - generic [ref=e171]:
+            - generic [ref=e172]: Medical
+            - generic [ref=e173]: 199d left
+          - generic [ref=e174]:
+            - generic [ref=e175]: Flight review
+            - generic [ref=e176]: 432d left
+          - generic [ref=e177]:
+            - generic [ref=e178]: Night landings
+            - generic [ref=e179]: 3 of 3 / 90d
+          - generic [ref=e180]:
+            - generic [ref=e181]: Total time
+            - generic [ref=e182]: 6.0 hrs
+      - generic [ref=e183]:
+        - heading "Recent legs" [level=2] [ref=e184]
+        - button "Descend to logbook ↓" [ref=e185]:
+          - text: Descend to logbook
+          - generic [ref=e186]: ↓
+      - generic [ref=e187]:
+        - article [ref=e188]:
+          - generic [ref=e189]:
+            - generic [ref=e190]: AUG 24, 2026
+            - generic [ref=e191]: N172VX
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - generic [ref=e194]: KPAO
+              - generic [ref=e195]: Palo Alto
+            - generic [ref=e196]: 1.4 HR
+            - generic [ref=e200]:
+              - generic [ref=e201]: KTRK
+              - generic [ref=e202]: Truckee
+          - generic [ref=e203]: IFR
+        - article [ref=e205]:
+          - generic [ref=e206]:
+            - generic [ref=e207]: AUG 19, 2026
+            - generic [ref=e208]: N44DA
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - generic [ref=e211]: KPAO
+              - generic [ref=e212]: Palo Alto
+            - generic [ref=e213]: 0.9 HR
+            - generic [ref=e217]:
+              - generic [ref=e218]: KPAO
+              - generic [ref=e219]: Palo Alto
+          - generic [ref=e220]:
+            - generic [ref=e221]: NIGHT
+            - generic [ref=e222]: 3 NLDG
+        - article [ref=e223]:
+          - generic [ref=e224]:
+            - generic [ref=e225]: AUG 12, 2026
+            - generic [ref=e226]: N9021P
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - generic [ref=e229]: KPAO
+              - generic [ref=e230]: Palo Alto
+            - generic [ref=e231]: 1.1 HR
+            - generic [ref=e235]:
+              - generic [ref=e236]: KMRY
+              - generic [ref=e237]: Monterey
+          - generic [ref=e238]: IFR
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - generic [ref=e243]:
+          - generic [ref=e244]: PILOT LOGBOOK
+          - heading [level=1] [ref=e245]:
+            - text: "6.0"
+            - emphasis [ref=e246]: hours
+            - text: ", logged."
+        - generic [ref=e247]:
+          - button "All aircraft" [ref=e248]
+          - button "N172VX" [ref=e249]
+          - button "N44DA" [ref=e250]
+          - button "N9021P" [ref=e251]
+      - generic [ref=e254]:
+        - article [ref=e258]:
+          - generic [ref=e259]:
+            - generic [ref=e260]: AUG 24, 2026
+            - generic [ref=e261]: N172VX
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - generic [ref=e264]: KPAO
+              - generic [ref=e265]: Palo Alto
+            - generic [ref=e266]: 1.4 HR
+            - generic [ref=e270]:
+              - generic [ref=e271]: KTRK
+              - generic [ref=e272]: Truckee
+          - generic [ref=e273]: IFR
+        - article [ref=e278]:
+          - generic [ref=e279]:
+            - generic [ref=e280]: AUG 19, 2026
+            - generic [ref=e281]: N44DA
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - generic [ref=e284]: KPAO
+              - generic [ref=e285]: Palo Alto
+            - generic [ref=e286]: 0.9 HR
+            - generic [ref=e290]:
+              - generic [ref=e291]: KPAO
+              - generic [ref=e292]: Palo Alto
+          - generic [ref=e293]:
+            - generic [ref=e294]: NIGHT
+            - generic [ref=e295]: 3 NLDG
+        - article [ref=e299]:
+          - generic [ref=e300]:
+            - generic [ref=e301]: AUG 12, 2026
+            - generic [ref=e302]: N9021P
+          - generic [ref=e303]:
+            - generic [ref=e304]:
+              - generic [ref=e305]: KPAO
+              - generic [ref=e306]: Palo Alto
+            - generic [ref=e307]: 1.1 HR
+            - generic [ref=e311]:
+              - generic [ref=e312]: KMRY
+              - generic [ref=e313]: Monterey
+          - generic [ref=e314]: IFR
+        - article [ref=e319]:
+          - generic [ref=e320]:
+            - generic [ref=e321]: AUG 05, 2026
+            - generic [ref=e322]: N172VX
+          - generic [ref=e323]:
+            - generic [ref=e324]:
+              - generic [ref=e325]: KHAF
+              - generic [ref=e326]: Half Moon Bay
+            - generic [ref=e327]: 0.7 HR
+            - generic [ref=e331]:
+              - generic [ref=e332]: KWVI
+              - generic [ref=e333]: Watsonville
+        - article [ref=e337]:
+          - generic [ref=e338]:
+            - generic [ref=e339]: JUL 29, 2026
+            - generic [ref=e340]: N44DA
+          - generic [ref=e341]:
+            - generic [ref=e342]:
+              - generic [ref=e343]: KPAO
+              - generic [ref=e344]: Palo Alto
+            - generic [ref=e345]: 0.5 HR
+            - generic [ref=e349]:
+              - generic [ref=e350]: KAPC
+              - generic [ref=e351]: Napa
+        - article [ref=e355]:
+          - generic [ref=e356]:
+            - generic [ref=e357]: JUL 21, 2026
+            - generic [ref=e358]: N9021P
+          - generic [ref=e359]:
+            - generic [ref=e360]:
+              - generic [ref=e361]: KPAO
+              - generic [ref=e362]: Palo Alto
+            - generic [ref=e363]: 0.6 HR
+            - generic [ref=e367]:
+              - generic [ref=e368]: KLVK
+              - generic [ref=e369]: Livermore
+        - article [ref=e373]:
+          - generic [ref=e374]:
+            - generic [ref=e375]: JUL 10, 2026
+            - generic [ref=e376]: N172VX
+          - generic [ref=e377]:
+            - generic [ref=e378]:
+              - generic [ref=e379]: KPAO
+              - generic [ref=e380]: Palo Alto
+            - generic [ref=e381]: 0.8 HR
+            - generic [ref=e385]:
+              - generic [ref=e386]: KSNS
+              - generic [ref=e387]: Salinas
+          - generic [ref=e388]: IFR
+    - generic [ref=e390]:
+      - generic [ref=e392]:
+        - generic [ref=e393]: HANGAR · GROUND
+        - heading [level=1] [ref=e394]:
+          - text: Aircraft on
+          - emphasis [ref=e395]: file
+          - text: .
+      - generic [ref=e396]:
+        - generic [ref=e397]:
+          - generic [ref=e402]:
+            - generic [ref=e403]:
+              - generic [ref=e404]: N172VX
+              - generic [ref=e405]: Cessna 172S
+            - generic "Airworthy" [ref=e406]
+          - generic [ref=e407]:
+            - generic [ref=e408]:
+              - generic [ref=e409]: Livery
+              - generic [ref=e410]: White / Amber trim
+            - generic [ref=e411]:
+              - generic [ref=e412]: Hobbs
+              - generic [ref=e413]: "4821.3"
+            - generic [ref=e414]:
+              - generic [ref=e415]: Logged with you
+              - generic [ref=e416]: 2.9 hrs
+        - generic [ref=e417]:
+          - generic [ref=e422]:
+            - generic [ref=e423]:
+              - generic [ref=e424]: N44DA
+              - generic [ref=e425]: Diamond DA40
+            - generic "Airworthy" [ref=e426]
+          - generic [ref=e427]:
+            - generic [ref=e428]:
+              - generic [ref=e429]: Livery
+              - generic [ref=e430]: White / Cyan trim
+            - generic [ref=e431]:
+              - generic [ref=e432]: Hobbs
+              - generic [ref=e433]: "2190.6"
+            - generic [ref=e434]:
+              - generic [ref=e435]: Logged with you
+              - generic [ref=e436]: 1.4 hrs
+        - generic [ref=e437]:
+          - generic [ref=e442]:
+            - generic [ref=e443]:
+              - generic [ref=e444]: N9021P
+              - generic [ref=e445]: Piper Cherokee 180
+            - generic "Airworthy" [ref=e446]
+          - generic [ref=e447]:
+            - generic [ref=e448]:
+              - generic [ref=e449]: Livery
+              - generic [ref=e450]: Cream / Rust trim
+            - generic [ref=e451]:
+              - generic [ref=e452]: Hobbs
+              - generic [ref=e453]: "6104.9"
+            - generic [ref=e454]:
+              - generic [ref=e455]: Logged with you
+              - generic [ref=e456]: 1.7 hrs

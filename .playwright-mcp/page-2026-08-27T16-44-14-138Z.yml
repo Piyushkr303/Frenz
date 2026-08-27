@@ -1,0 +1,127 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Vector" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e17]:
+        - link "RDY Ready Room" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e19]: RDY
+          - generic [ref=e20]: Ready Room
+        - link "PLN Plan" [ref=e22] [cursor=pointer]:
+          - /url: /plan
+          - generic [ref=e23]: PLN
+          - generic [ref=e24]: Plan
+        - link "LOG Logbook" [ref=e26] [cursor=pointer]:
+          - /url: /logbook
+          - generic [ref=e27]: LOG
+          - generic [ref=e28]: Logbook
+        - link "FLT Fleet" [ref=e30] [cursor=pointer]:
+          - /url: /fleet
+          - generic [ref=e31]: FLT
+          - generic [ref=e32]: Fleet
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]: 16:44
+          - generic [ref=e37]: :13
+          - generic [ref=e38]: Z
+        - generic [ref=e40]: AR
+  - main [ref=e41]:
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: THURSDAY, AUGUST 27, 2026
+          - heading [level=1] [ref=e46]:
+            - text: Good afternoon,
+            - emphasis [ref=e47]: Alex
+            - text: .Here's where things stand.
+        - link "Plan a flight →" [ref=e48] [cursor=pointer]:
+          - /url: /plan
+          - text: Plan a flight
+          - generic [ref=e49]: →
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - heading "Field conditions · KPAO" [level=2] [ref=e53]
+            - generic [ref=e54]:
+              - generic [ref=e55]:
+                - generic [ref=e56]: VFR
+                - generic [ref=e57]:
+                  - generic [ref=e58]: 22°C / 13°C
+                  - generic [ref=e59]: Temp / Dewpoint · wind 280° at 8kt · 10sm
+              - generic [ref=e60]: KPAO 271853Z 28008KT 10SM FEW035 22/13 A3005
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - heading "Recent legs" [level=2] [ref=e63]
+              - link "Full logbook →" [ref=e64] [cursor=pointer]:
+                - /url: /logbook
+            - generic [ref=e65]:
+              - article [ref=e66]:
+                - generic [ref=e67]:
+                  - generic [ref=e68]: AUG 24, 2026
+                  - generic [ref=e69]: N172VX
+                - generic [ref=e70]:
+                  - generic [ref=e71]:
+                    - generic [ref=e72]: KPAO
+                    - generic [ref=e73]: Palo Alto
+                  - generic [ref=e74]: 1.4 HR
+                  - generic [ref=e78]:
+                    - generic [ref=e79]: KTRK
+                    - generic [ref=e80]: Truckee
+                - generic [ref=e81]: IFR
+              - article [ref=e83]:
+                - generic [ref=e84]:
+                  - generic [ref=e85]: AUG 19, 2026
+                  - generic [ref=e86]: N44DA
+                - generic [ref=e87]:
+                  - generic [ref=e88]:
+                    - generic [ref=e89]: KPAO
+                    - generic [ref=e90]: Palo Alto
+                  - generic [ref=e91]: 0.9 HR
+                  - generic [ref=e95]:
+                    - generic [ref=e96]: KPAO
+                    - generic [ref=e97]: Palo Alto
+                - generic [ref=e98]:
+                  - generic [ref=e99]: NIGHT
+                  - generic [ref=e100]: 3 NLDG
+              - article [ref=e101]:
+                - generic [ref=e102]:
+                  - generic [ref=e103]: AUG 12, 2026
+                  - generic [ref=e104]: N9021P
+                - generic [ref=e105]:
+                  - generic [ref=e106]:
+                    - generic [ref=e107]: KPAO
+                    - generic [ref=e108]: Palo Alto
+                  - generic [ref=e109]: 1.1 HR
+                  - generic [ref=e113]:
+                    - generic [ref=e114]: KMRY
+                    - generic [ref=e115]: Monterey
+                - generic [ref=e116]: IFR
+        - complementary [ref=e118]:
+          - generic [ref=e119]:
+            - heading "Currency" [level=2] [ref=e120]
+            - generic [ref=e121]:
+              - generic [ref=e126]:
+                - generic [ref=e127]: Medical
+                - generic [ref=e128]: 199 days left
+              - generic [ref=e133]:
+                - generic [ref=e134]: Flight review
+                - generic [ref=e135]: 432 days left
+              - generic [ref=e140]:
+                - generic [ref=e141]: Night landings
+                - generic [ref=e142]: 3 of 3 in 90 days
+          - generic [ref=e143]:
+            - heading "Hours · last 7 legs" [level=2] [ref=e144]
+            - generic [ref=e145]:
+              - generic [ref=e147]:
+                - generic [ref=e148]: Total
+                - generic [ref=e149]: "6.0"
+              - generic [ref=e153]:
+                - generic [ref=e154]: Cross-country
+                - generic [ref=e155]: "4.9"
+              - generic [ref=e159]:
+                - generic [ref=e160]: Instrument
+                - generic [ref=e161]: "0.9"
+              - generic [ref=e165]:
+                - generic [ref=e166]: Night
+                - generic [ref=e167]: "0.6"
